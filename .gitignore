@@ -1,0 +1,7 @@
+electron-builder.yml
+dev-app-update.yml
+node_modules
+dist
+
+.idea
+www

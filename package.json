@@ -1,0 +1,26 @@
+{
+  "name": "boreypos",
+  "productName": "BOREY POS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sangkhim/boreypos"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "build": "electron-builder build --win --publish never",
+    "deploy": "electron-builder build --win --publish always"
+  },
+  "author": "sangkhim",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^6.1.6",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "electron-updater": "^4.2.0"
+  }
+}
